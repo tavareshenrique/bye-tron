@@ -2,7 +2,7 @@
   "name": "byetron",
   "displayName": "ByeTron",
   "description": "ByeTron is a VSCode extension for those who are accustomed to using Reactotron's \"console.tron.log()\" and forget to clean it from code sometimes, like me ...",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Henrique",
   "repository": {
     "type": "git",
@@ -39,9 +39,7 @@
     "glob": "^7.1.5",
     "mocha": "^6.2.2",
     "typescript": "^3.6.4",
-    "vscode-test": "^1.2.2"
-  },
-  "dependencies": {
+    "vscode-test": "^1.2.2",
     "babel-eslint": "^10.0.3"
   }
 }
