@@ -3,7 +3,7 @@
   "displayName": "ByeTron",
   "description": "ByeTron is a VSCode extension for those who are accustomed to using Reactotron's \"console.tron.log()\" and forget to clean it from code sometimes, like me ...",
   "version": "1.0.0",
-  "publisher": "Henrique Tavares",
+  "publisher": "Henrique",
   "repository": {
     "type": "git",
     "url": "https://github.com/tavareshenrique/bye-tron"
