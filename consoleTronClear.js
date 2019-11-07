@@ -18,7 +18,7 @@ class ConsoleTronClear {
       return;
     }
 
-    const regex = /(console.tron.log\(\)|console.tron.log\(.+\));/;
+    const regex = /(console.tron.log\(\)|console.tron.log\(.+\))|({console.tron.log\(\)}|{console.tron.log\(.+\)});/;
 
     let endOfFile = false;
     let iteratedLine = 0;
@@ -48,6 +48,7 @@ class ConsoleTronClear {
     editor.edit(editBuilder => {
       linesToClear.map(line => {
         editBuilder.delete(line.range);
+        editBuilder.setEndOfLine(1);
       });
     });
   }
