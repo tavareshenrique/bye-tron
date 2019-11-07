@@ -25,7 +25,7 @@
 
 ## About
 
-ByeTron is a VSCode extension that helps you clean out `console.tron.log ()` that you forget in your code.
+ByeTron is a VSCode extension that helps you clean out `console.tron.log()` that you forget in your code.
 
 ## Start
 
