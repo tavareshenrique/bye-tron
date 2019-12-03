@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://henriquetavares.com">
+  <a href="https://marketplace.visualstudio.com/items?itemName=Henrique.byetron">
     <img src="https://raw.githubusercontent.com/tavareshenrique/bye-tron/master/icon.png" alt="Logo">
   </a>
 </p>
